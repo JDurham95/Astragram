@@ -12,7 +12,7 @@ function App() {
     <div className='app'>
       <div className='background'>
       <header>
-        <h1 className='astragram-home-header'>ASTRAGRAM</h1>
+        <h1 className='astragram-home-header'>ASTRAGRAM version 1</h1>
       </header>
       <Router>
         <Routes>
