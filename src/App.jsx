@@ -14,7 +14,7 @@ function App() {
     left: 0,
     width: "100vw",
     height: "100vh",
-    backgroundImage: "url(/dog_head.png)",
+    backgroundImage: "url(../dog_head.png)",
     backgroundSize: "150px 150px",
     backgroundRepeat: "repeat",
     animation: "panBackground 15s linear infinite",
