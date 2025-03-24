@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom"
+
 import AstragramGrid from "../components/astragramGrid"
 import { useState } from "react"
 import { astragrams, astragramDesc, astragramLikes } from "../components/astragramslist"
