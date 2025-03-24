@@ -16,7 +16,7 @@ function App() {
       </header>
       <Router>
         <Routes>
-          <Route path='/' element={<HomePage/>}></Route>
+          <Route path='/Astragram' element={<HomePage/>}></Route>
         </Routes>
       </Router>
       </div>
