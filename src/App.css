@@ -70,11 +70,11 @@ html, body{
 .background {
   overflow-y: scroll;
   position: fixed;
-  top: 1;
+  top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url(/dog_head.svg);
+  background-image: url(https://github.com/JDurham95/Astragram/blob/main/public/dog_head.svg);
   background-size: 150px 150px;  /* Adjust the tile size to match your dog head image */
   background-repeat: repeat;     /* Ensure the image repeats in a grid */
   animation: panBackground 15s linear infinite;
