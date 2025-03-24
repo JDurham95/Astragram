@@ -1,3 +1,5 @@
+@import url(/public/dog_head.svg);
+
 html, body{
   margin: 0;
   padding: 0;
@@ -74,7 +76,7 @@ html, body{
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url(../public/dog_head.svg);
+  background-image: url(/dog_head.svg);
   background-size: 150px 150px;  /* Adjust the tile size to match your dog head image */
   background-repeat: repeat;     /* Ensure the image repeats in a grid */
   animation: panBackground 15s linear infinite;
