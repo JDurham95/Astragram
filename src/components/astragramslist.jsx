@@ -1,5 +1,7 @@
+import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 
-
+const totalAstragram = 22
 
 const astragrams = [
     "1.jpeg", 

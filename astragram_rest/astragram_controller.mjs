@@ -18,6 +18,16 @@ app.listen(PORT, async () => {
 });
 
 app.get("/:astragram_number", asyncHandler(async (req, res) => {
-    const likeCount = await likes.getLikes(req)
+    const likeCount = await likes.getLikes(req.params.astragram_number);
+    if (likeCount !== null){
+        res.status(200).json(likeCount);
+    }else{
+        res.status(404).json(ERROR_NOT_FOUND);
+    }
 
+}))
+
+app.put("/:astragram_number", asyncHandler(async(req,res) =>{
+
+    const gramNumber = req.body.astragram_number;
 }))
